@@ -1,5 +1,4 @@
 import React, { Component, useReducer } from 'react';
-import PropTypes from 'prop-types';
 import BlankSymbol from './BlankSymbol';
 import Result from './Result';
 import XSymbol from './XSymbol';

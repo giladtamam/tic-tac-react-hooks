@@ -11,9 +11,7 @@ export const Symbol = styled.div`
   width: 60px;
 `;
 
-const BlankSymbol = ({ addSymbol, turn }) => {
-  // {() => addSymbol(rowIndex, position, symbol)}>
-  // (row, position, symbol)
+const BlankSymbol = ({ addSymbol }) => {
   return <Symbol onClick={() => addSymbol()}></Symbol>;
 };
 
